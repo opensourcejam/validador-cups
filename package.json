@@ -1,0 +1,15 @@
+{
+  "name": "validador-cups",
+  "version": "0.0.1",
+  "description": "Validador CUPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "validador",
+    "CUPS"
+  ],
+  "author": "Kemil Beltre",
+  "license": "MIT"
+}
