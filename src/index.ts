@@ -1,4 +1,4 @@
-import validate from "./lib/cups";
+import validate from "./lib/validate";
 
 export const cups = {
   validate,
