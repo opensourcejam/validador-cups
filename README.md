@@ -1,7 +1,7 @@
 # Validador Cups
 
-Esta función de utilidad valida un código CUPS (Código Unificado de Punto de Suministro) para garantizar su corrección. Los códigos CUPS se utilizan comúnmente en España para identificar puntos de suministro de energía.
-[más información](https://www.endesa.com/es/blog/blog-de-endesa/luz/cups-donde-encontrar)
+Un módulo simple para validar un código
+[CUPS](https://es.wikipedia.org/wiki/C%C3%B3digo_Unificado_de_Punto_de_Suministro)
 
 ## Ejemplo
 
