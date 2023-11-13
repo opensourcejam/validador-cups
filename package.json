@@ -7,7 +7,10 @@
   "module": "dist/index.mjs",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix --ext .ts src",
+    "formatter": "prettier . --write"
   },
   "keywords": [
     "validador",
@@ -16,13 +19,13 @@
   "author": "Kemil Beltre",
   "license": "MIT",
   "dependencies": {
-    "prettier": "^3.0.3",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
-    "eslint": "^8.53.0"
+    "eslint": "^8.53.0",
+    "prettier": "^3.0.3"
   }
 }
