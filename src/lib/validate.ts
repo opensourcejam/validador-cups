@@ -6,7 +6,6 @@
  * @param cupsId
  * @returns boolean
  */
-
 export default function validate(cupsId: string): boolean {
   if (typeof cupsId !== "string") {
     return false;
