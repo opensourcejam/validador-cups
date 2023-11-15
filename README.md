@@ -8,14 +8,19 @@ Un módulo simple para validar un código
 **JavaScript**
 
 ```javascript
-var cups = require('validador-cups');
+const { cups } = require("validador-cups");
 
-const isValid = cups.validate('ES002100000123456789AB');
-if (isValid) {
-  console.log('The CUPS code is valid.');
-} else {
-  console.error('Invalid CUPS code.');
-}
+const isValid = cups.validate("ES002100000123456789AB"); // false
+```
+
+**TypeScript**
+
+```typescript
+import { cups } from "validador-cups";
+
+const isValid = cups.validate("ES002100000123456789AB"); // false
+```
+
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para obtener más detalles
