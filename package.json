@@ -7,7 +7,12 @@
   "module": "dist/index.mjs",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix --ext .ts src",
+    "formatter": "prettier . --write",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "keywords": [
     "validador",
@@ -18,5 +23,14 @@
   "dependencies": {
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "prettier": "^3.0.3",
+    "@types/jest": "^29.5.8",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1"
   }
 }

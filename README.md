@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Validador Cups
 
 Un módulo simple para validar un código
@@ -24,3 +25,6 @@ const isValid = cups.validate("ES002100000123456789AB"); // false
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para obtener más detalles
+=======
+# validador-cups
+>>>>>>> main

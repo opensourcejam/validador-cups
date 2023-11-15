@@ -1,5 +1,5 @@
-import validate from "./lib/validate";
+import validate from './lib/validate'
 
 export const cups = {
   validate,
-};
+}
