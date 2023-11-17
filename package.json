@@ -1,6 +1,6 @@
 {
   "name": "@opensourcejam/validador-cups",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Validador CUPS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,6 +22,7 @@
     "CUPS"
   ],
   "author": "Kemil Beltre",
+  "license": "MIT",
   "homepage": "http://github.com/opensourcejam/validador-cups",
   "licenses": [
     {
