@@ -1,6 +1,6 @@
 {
   "name": "@opensourcejam/validador-cups",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Validador CUPS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,29 @@
     "CUPS"
   ],
   "author": "Kemil Beltre",
-  "license": "MIT",
+  "homepage": "http://github.com/opensourcejam/validador-cups",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/opensourcejam/validador-cups/blob/main/LICENSE"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kemil Beltre",
+      "email": "info.kemilbeltre@gmail.com",
+      "url": "https://github.com/kemilbeltre"
+    },
+    {
+      "name": "Eduardo Moratón",
+      "email": "eduardo.moraton@gmail.com",
+      "url": "https://github.com/EduardoMoraton"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opensourcejam/validador-cups.git"
+  },
   "dependencies": {
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
